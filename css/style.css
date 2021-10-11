@@ -353,6 +353,9 @@ ul {
   .works-sell-text__text {
     max-width: 480px;
   }
+  .it-works {
+    margin-top: 100px;
+  }
 }
 
 /* ---------WORKS--------- */
@@ -559,12 +562,6 @@ ul {
 }
 
 
-
-
-
-
-
-
 @media screen and (max-width: 768px) {
   .content {
     display: flex;
@@ -613,10 +610,4 @@ ul {
     position: relative;
     left: 40%;
   }
-  /* .up-btn {
-    position: fixed;
-    right: 80px;
-    bottom: 20px;
-    z-index: 9999;
-  } */
 }
