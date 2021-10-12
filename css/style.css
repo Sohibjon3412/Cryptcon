@@ -171,7 +171,7 @@ ul {
 }
 .hero-nav__sign {
   color: var(--white-color);
-  margin-left: 20px;
+  margin-left: 40px;
 }
 .btn:hover{
   transform: translate(0,-5px);
@@ -195,8 +195,8 @@ ul {
 }
 
 .up-btn {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   background-color: var(--btn-bg);
   display: inline-block;
   border-radius: 5px;
@@ -211,7 +211,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 4px;
+  padding-top: 1px;
 }
 .hero-menu {
   display: none;
@@ -280,7 +280,7 @@ ul {
   margin-top: 80px;
 }
 .content__title {
-  font-size: 50px;
+  font-size: 48px;
   font-weight: 700;
   margin-bottom: 20px;
   color: var(--text--color);
@@ -559,7 +559,7 @@ ul {
   font-weight: 400;
   line-height: 24px;
   color: var(--link-color);
-  width: 310px;
+  width: 300px;
 }
 
 .team{
@@ -848,17 +848,24 @@ ul {
 .work__item .apps--margin{
   margin-bottom: 30px;
 }
-@media screen and (max-width:999px) {
+@media screen and (max-width:992px) {
   .apps__row{
     flex-direction: column-reverse;
   }
   .apps--img{
     margin-top: 50px;
   }
+  .features-list__text {
+    max-width: 70%;
+  }
 }
 @media screen and (max-width:768px) {
   .blog__elements{
     margin-bottom: 30px;
+  }
+  .features-list__text {
+    max-width: 100%;
+    margin: 0 auto;
   }
 }
 
@@ -928,7 +935,7 @@ ul {
   }
   .features-list__item::before {
     position: relative;
-    left: 40%;
+    left: 45%;
   }
   /* TEAM */
   .team__block{
